@@ -14,9 +14,15 @@
 
 //TODO: Define a function named isOdd that takes in any input and returns true if the input is an odd number, return false for any other situation. You do not need to consider floating-point and decimal numbers.
 
+function isOdd(input) {
+    return (input % 2 === 1);
+}
 
 //TODO: Define a function named isVowel that takes in a single character and returns true if the character is a vowel. *Not including the letter 'y'
 
+function isVowel(char) {
+    return (char == "a" || "A" || "e" || "E" || "i" || "I" || "o" || "O" || "u" || "U");
+}
 
 //TODO: Define a function named combineStrings that takes in two parameters, if both parameters are strings, then return a concatenated string of both parameters. Otherwise, return false.
 
